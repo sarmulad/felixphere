@@ -1,0 +1,95 @@
+.wallet-container{
+    align-items: flex-start;
+}
+.wallet-item{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.wallet-item > h5{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 32px;
+    background: linear-gradient(90deg, #FFCC00 95.69%, #FFA900 95.7%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+.wallet-item > h6,.wallet-item > p {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 32px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.wallet-item > p{
+    margin-top: 3rem;
+}
+
+.block{
+    background: linear-gradient(360deg, #0D1723 2.62%, #2E3741 98.9%);
+    border: 1px solid #FFFFFF;
+    box-shadow: 15px 25px 50px rgba(13, 23, 35, 0.5);
+    border-radius: 8px;
+}
+
+.block-2 > h2{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 48px;
+    text-align: center;
+    background: linear-gradient(360deg, #FFFFFF 98.89%, #2E3741 98.9%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.block-2 > button{
+    background: #FFCC00;
+    border-radius: 7px;
+    border: 0;
+    outline: none;
+    color: #000;
+    width: 227px;
+    height: 60px;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 32px;
+    margin-top: 2rem;
+    cursor: pointer;
+}
+
+@media screen and (max-width:1100px){
+    .wallet{
+        position: relative;
+    }
+   .wallet-container{
+    display: flex;
+    flex-direction: column-reverse;
+   }
+   .block{
+    width: 100%;
+   }
+   .block-2 > button{
+    position: absolute;
+    bottom: -100px;
+   }
+}
+
+@media screen and (max-width:500px){
+    .block{
+        padding: 2rem 1rem;
+    }
+    .block-2 > h2{
+        font-size: 20px;
+        line-height: 25px;
+        margin-bottom: 3rem;
+    }
+    .wallet-item > h5{
+        font-size: 20px;
+    }
+    
+}

@@ -1,0 +1,145 @@
+body.active-modal {
+    overflow-y: hidden;
+}
+
+.btn-modal {
+    padding: 10px 20px;
+    display: block;
+    margin: 100px auto 0;
+    font-size: 18px;
+    background-color: #000;
+
+}
+
+.modal, .overlay {
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+}
+.modal{
+    z-index: 999;
+
+}
+.overlay {
+    background: rgba(49,49,49,0.8);
+}
+.modal-content {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transform: translate(-50%, -50%);
+    background: #000000;
+    border: 1px solid #FFCC00;
+    padding: 3rem ;
+    border-radius: 3px;
+    max-width: 900px;
+    min-width: 300px;
+    min-height: 60vh;
+    margin-top: 3rem;    
+}
+
+.close-modal {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: #fff;
+    background: none;
+    cursor: pointer;
+    outline: none;
+    border: 0;
+    font-size: 20px;
+    padding: 5px 7px;
+}
+
+.img-container{
+    display: flex;
+    gap: 5rem;
+}
+
+.img-container > div{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.img{
+    width: 136px;
+    height: 136px;
+    margin-bottom: 20px;
+}
+
+.content-group{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+}
+.text{
+    text-align: center;
+}
+.input-container {
+    width: fit-content;
+    position: relative;
+    margin-top: 16px;
+}
+  
+.input-field {
+    padding: 8px 12px;
+    position: relative;
+    width: 300px;
+    color: #000000;
+    font-weight: 700;
+    /* background: #ededee; */
+    border-radius: 6.62185px;
+    outline: none;
+}
+.right-txt {
+    position: absolute;
+    right: 8px;
+    top: 12px;
+    font-style: normal;
+    font-size: 12.4675px;
+    font-weight: 700;
+    line-height: 19px;
+    text-align: center;
+    color: #000000;
+}
+.buy-btn, .btn-modal{
+    color: #000;
+    /* font-weight: 700; */
+    font-size: 16px;
+    border-radius: 6px;
+    padding: 0.5rem 1rem;
+    background-color: #FFCC00;
+    outline: none;
+    border: 0;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+@media screen and (max-width:500px){
+.img-container{
+     gap: 1.5rem;
+ }
+ .img{
+    width: 130px;
+    height: 130px;
+
+ }
+ .modal-content{
+    padding: 1rem;
+ }
+
+ .header{
+    font-size: 20px;
+    text-align: center;
+ }
+ 
+}
