@@ -12,9 +12,7 @@ const Home = () => {
     <div>
       <Header />
       <MainScreen />
-      {/* <Partners /> */}
       <MainBody />
-      {/* <Footer /> */}
     </div>
   )
 }

@@ -3,9 +3,7 @@ import { Anchor, Drawer, Button, Image, Select } from 'antd';
 import { MenuOutlined } from '@ant-design/icons';
 import sed from '../assets/logo.png';
 import { Link } from 'react-router-dom';
-// import Timer from './timer';
 const { Option } = Select;
-// const { Link } = Anchor;
 
 function AppHeader() {
   const [visible, setVisible] = useState(false);
@@ -25,18 +23,14 @@ function AppHeader() {
           <a href='/'><img src={sed}/></a>
         </div>
 
-        {/* <div>
-          <Timer />
-        </div> */}
         <div className="mobileHidden" style={{ zIndex: 99, color: "white" }}>
           
           <div style={{display:"flex", justifyContent:'space-between', alignItems:'center', gap:'2rem'}}>
             <Link to="/buy"><button className='btn btn-solid'>Buy</button></Link>
-            <Link to="/"><button className='btn btn-outline'>Claim</button></Link>
+            <Link to="/"><button className='btn btn-outline'>Claim Pot</button></Link>
             <Link to="/">Home</Link>
             <Link to="/faq">Faqs</Link>
             <Link to="/tokenomics">Tokenomics</Link>
-            <a href="http://luck.felixphere.io/register">Login</a>
           </div>
 
         </div>
@@ -56,9 +50,8 @@ function AppHeader() {
               <Link to="/">Home</Link>
               <Link to="/faq">Faqs</Link>
               <Link to="/tokenomics">Tokenomics</Link>
-              <a href="http://luck.felixphere.io/register">Login</a>
               <Link to="/buy"><button className='btn btn-solid'>Buy</button></Link>
-              <Link to="/"><button className='btn btn-outline'>Claim</button></Link>
+              <Link to="/"><button className='btn btn-outline'>Claim Pot</button></Link>
             </div>
           </Drawer>
         </div>

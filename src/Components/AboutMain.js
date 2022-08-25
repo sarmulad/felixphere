@@ -23,7 +23,7 @@ function AboutMain() {
             <Row style={{ padding: "20px" }}>
                 <Col xs={24} sm={24} md={24} className="pad-mob" style={{ marginTop: "100px", textAlign: "center", }}>
                     <p className="imu" style={{ width: "60%", textAlign: "center", marginLeft: "auto", marginRight: "auto", color: "white" }}>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dolor mauris non consequat non quam malesuada aliquam ut.
+                        FREQUENTLY ASKED QUESTIONS
                     </p>
 
                 </Col>
@@ -51,13 +51,6 @@ function AboutMain() {
 
                         <Panel header="How Many Tokens Are Available During The Presale Phase?" key="4" >
                             <p>No. There will be two month vesting period for the tokens purchased during the presale phase. </p>
-                        </Panel>
-
-
-
-                        <Panel header="How Many Tokens Are Available During The Presale Phase?" key="5" >
-                            <p>There will be 500,000,000,000 tokens available in the presale phase but a fixed total supply of
-                                2,000,000,000,000 $FELIX tokens. </p>
                         </Panel>
                     </Collapse>
                 </Col>

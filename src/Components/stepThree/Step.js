@@ -7,7 +7,18 @@ function StepThree() {
         <div className='stepthree-container container'>
             <div className='step-text'>
                <h1 className='header center'>Step 3</h1>
-                <p>Once the presale has concluded, you will be able to claim your FELIX tokens. We will release details closer to the time, however you will need to visit the main site <a href="https://felixphere.io">https://felixphere.io</a> and click on the “Claim” button.</p>
+                <p>Connect your wallet, and the pop-up will take you to a 
+                  new window. Once here, click the 'buy with BNB' button. Then, 
+                  enter the quantity of $FELIX you desire to acquire in the box provided, 
+                  and hit the buy button.</p>
+
+                <div className='step-text'>
+                <h1 className='header center'>Step 4</h1>
+                <p>Now that your transaction has been processed, you will be able 
+                  to access your $FELIX tokens 
+                  by going to the claim pot on the main 
+                  website after the presale concludes</p>
+               </div>
             </div>
 
             <div>

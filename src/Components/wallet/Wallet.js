@@ -16,7 +16,12 @@ function Wallet() {
                 <Progress done={70}/>
             </div>
             <div className='wallet-item block-2'>
-                <h2>It couldn't be easier to get your hands on the token in our pre-sale. You can buy $FELIX directly using your card or with USDT or ETH already in your wallet. After the public presale ends, you'll be able to claim your purchased Felixphere Tokens using the claim page.</h2>
+                <h2>
+              It couldn't be easier to get your hands on the token in 
+              our pre-sale. You can buy $FELIX directly from your digital wallet 
+              using $BNB. After the public presale ends, you'll be able to claim your
+              purchased Felixphere Tokens using the claim pot on the main page (www.felixphere.io)
+              </h2>
                 <Modal 
                  name="Connect Wallet"
                  open={openModal} 

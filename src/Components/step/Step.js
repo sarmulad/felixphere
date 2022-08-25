@@ -10,9 +10,7 @@ function Step() {
                 <img src={illustration} alt=''illustration width='100%'/>
             </div>
             <div className='step-text'>
-                <p>To begin, make sure you have a MetaMask wallet installed on your browser, or use one of the wallets supported by Wallet Connect (we recommend Trust Wallet).</p>
-                <p>Purchasing on a desktop browser will give you a smoother purchasing experience. For this we recommend Metamask.</p>
-                <p>If you are purchasing on mobile, we recommend using Trust Wallet and connecting through the in built browser (just copy https://buy.felixphere.io into the Trust Wallet Browser).</p>
+                <p>To obtain your $FELIX tokens, you must first open a digital wallet. Metamask is the wallet that we recommend using. </p>
             </div>
         </div>
     </div>
