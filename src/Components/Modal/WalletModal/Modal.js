@@ -35,7 +35,7 @@ export default function Modal({name}) {
                  <p>Wallet Connect</p>
                 </div>
                 <div>
-                 <img src={meta} alt='logo' className="img"/>
+                <Link to="/after-connect"><img src={meta} alt='logo' className="img"/></Link>
                  <p>MetaMask</p>
                 </div>
             </div>
