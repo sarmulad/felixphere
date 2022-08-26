@@ -3,7 +3,8 @@ import { Anchor, Drawer, Button, Image, Select } from 'antd';
 import { MenuOutlined } from '@ant-design/icons';
 import sed from '../assets/logo.png';
 import { Link } from 'react-router-dom';
-const { Option } = Select;
+import Lock from "../assets/lock.png"
+// const { Option } = Select;
 
 function AppHeader() {
   const [visible, setVisible] = useState(false);
@@ -27,7 +28,7 @@ function AppHeader() {
           
           <div style={{display:"flex", justifyContent:'space-between', alignItems:'center', gap:'2rem'}}>
             <Link to="/buy"><button className='btn btn-solid'>Buy</button></Link>
-            <Link to="/"><button className='btn btn-outline'>Claim Pot</button></Link>
+            <Link to="/"><button className='btn btn-outline'><img src={Lock} width='25px' height='25px'/>Claim Pot</button></Link>
             <Link to="/">Home</Link>
             <Link to="/faq">Faqs</Link>
             <Link to="/tokenomics">Tokenomics</Link>
@@ -51,7 +52,7 @@ function AppHeader() {
               <Link to="/faq">Faqs</Link>
               <Link to="/tokenomics">Tokenomics</Link>
               <Link to="/buy"><button className='btn btn-solid'>Buy</button></Link>
-              <Link to="/"><button className='btn btn-outline'>Claim Pot</button></Link>
+              <Link to="#"><button className='btn btn-outline'><img src={Lock} width='25px' height='25px'/>Claim Pot</button></Link>
             </div>
           </Drawer>
         </div>
