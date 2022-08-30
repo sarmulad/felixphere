@@ -15,15 +15,9 @@ import image4 from '../assets/image4.png';
 import image5 from '../assets/image5.png';
 
 import rect from '../assets/Rect.png';
-
-
-
-
-
 import AppFooter from './AppFooter';
-// import Bonus from './Bonus';
 
-function mainScreen() {
+function MainBody() {
     return (
 
         <div className="mainScreen">
@@ -385,4 +379,4 @@ function mainScreen() {
     );
 }
 
-export default mainScreen;
+export default MainBody;
