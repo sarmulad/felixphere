@@ -17,7 +17,6 @@ function MainScreen() {
       };
     return (
         <div id="hero" className="heroBlock">
-
             <div className="container-fluid">
                 <AppHeader />
                 <div className="content homeSlide" >
