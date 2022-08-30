@@ -1,5 +1,5 @@
 import React from 'react';
-import AppHeader from './header';
+import AppHeader from './Header';
 import { Col, Row, } from 'antd';
 
 

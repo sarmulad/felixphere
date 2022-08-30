@@ -1,10 +1,9 @@
-import React, { useState, useEffect, useRef } from 'react'
-import { Anchor, Drawer, Button, Image, Select } from 'antd';
+import React, { useState, } from 'react'
+import { Drawer, Button,  } from 'antd';
 import { MenuOutlined } from '@ant-design/icons';
 import sed from '../assets/logo.png';
 import { Link } from 'react-router-dom';
 import Lock from "../assets/lock.png"
-// const { Option } = Select;
 
 function AppHeader() {
   const [visible, setVisible] = useState(false);

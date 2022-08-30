@@ -1,6 +1,6 @@
 import React,{useState} from 'react';
 import { Col, Row, Image, Button} from 'antd';
-import AppHeader from './header';
+import AppHeader from './Header';
 import illus from '../assets/illus.png';
 import { saveAs } from "file-saver";
 import WalletModal from './Modal/WalletModal/Modal'
@@ -45,10 +45,6 @@ function MainScreen() {
                             <Image className="no--mob" src={illus} preview={false} />
                         </Col>
 
-                        {/* <Col xs={24} sm={24}>
-                            <a href="/buy"><Button className="not_mob2" style={{ display: "none", borderRadius: "5px", background: "transparent", border: "1px solid #FFCC00", color: "#FFCC00", margin: "0px 20px 0px 0px" }} size="large">Buy Presale</Button></a>
-                        </Col> */}
-
                     </Row>
 
                     <Row className="paa" style={{ padding: "50px 50px 0px 100px" }}>
@@ -56,9 +52,6 @@ function MainScreen() {
                     <Col xs={24} sm={24} md={11} style={{ display: 'flex', justifyContent: "center" }}>
                     </Col>
                 </Row>
-
-
-                {/* <Bonus /> */}
 
                 </div>
             </div>

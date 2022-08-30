@@ -1,5 +1,5 @@
 import React from 'react';
-import AppHeader from './header';
+import AppHeader from './Header';
 import faq from '../assets/122.png';
 import { Image, Col, Row, } from 'antd';
 
