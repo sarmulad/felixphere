@@ -93,8 +93,7 @@ function MainBody() {
                             <Image className="kk-image" style={{ width: "30%" }} src={two} preview={false} />
                             <h3 className="all-mob" style={{ color: "#FFCC00", textAlign: "center" }}>Rock/Paper/Scissors</h3>
                             <p  style={{ color: "white",  }}>
-                                A simple hand game usually played by two people where each player forms one of the three shapes and displays it simultaneously.
-                                
+                                A simple hand game usually played by two people where each player forms one of the three shapes and displays it simultaneously.       
                             </p>
                             <p  style={{ color: "white",  }}>
                                 They can either form “rock”, “paper” or “scissors”. Rock trumps scissors because they can break scissors, scissors beat paper because they were created to
@@ -136,7 +135,6 @@ function MainBody() {
 
                             <p  style={{ color: "white",  }}>
                                 Also known as Xs and Os, this game is for two players. At the start of the game, they each choose either an X or an O and then they take turns writing their chosen symbol on spaces in a three-by-three grid. The first player to write their letter, three in a row either horizontally, vertically, or diagonally, wins.
-
                             </p>
                             <div className="btn-mo" style={{ display: 'flex', justifyContent: "center", marginTop:'2rem' }}>
                                 <Button style={{ background: "#FFCC00", border: "none", color: "#000"}} size="large">Coming Soon</Button>
@@ -153,11 +151,9 @@ function MainBody() {
 
                             <p style={{ color: "white",  }}>
                                 This game is also played by two people and is similar to tic-tac-toe. There is a grid with enough dots to form at least 5 boxes. Each player takes turns drawing lines to connect the dots to complete a box and put their initials in it. When all the boxes have been drawn and initials are written to claim ownership, whoever’s initial is the most wins.
-
                             </p>
                             <div className="btn-mo" style={{ display: 'flex', justifyContent: "center", marginTop:'2rem' }}>
                                 <Button style={{ background: "#FFCC00", border: "none", color: "#000" }} size="large">Coming Soon</Button>
-
                             </div>
 
                         </div>
@@ -209,21 +205,22 @@ function MainBody() {
                         </p>
 
 
-                        <p style={{ color: "white" }}>
-                            <Image src={rect} /> Deposit your quota to the prize pot
-                        </p>
-                        <p style={{ color: "white" }}>
-                            <Image src={rect} /> Felixphere also adds a 10% bonus to the total! (the higher
+                        <div style={{ color: "white", display:'flex', gap:'5px'}}>
+                            <Image src={rect} /> <p>Deposit your quota to the prize pot</p>
+                        </div>
+                        <div style={{ color: "white", display:'flex', gap:'5px'}}>
+                            <Image src={rect} /> <p>Felixphere also adds a 10% bonus to the total! (the higher
                             the player's tokens are deposited, the more Felixphere contributes) </p>
-                        <p style={{ color: "white" }}>
-                            <Image src={rect} /> The winner takes 90% of the prize pot as their reward.
-                        </p>
-                        <p style={{ color: "white" }}>
-                            <Image src={rect} /> The remaining 10% is distributed as cashback for wallet holders
-                        </p>
-                        <p style={{ color: "white" }}>
-                            Get Gaming, Get Gaining!
-                        </p>
+                        </div>
+                        <div style={{ color: "white", display:'flex', gap:'5px' }}>
+                            <Image src={rect} /> <p>The winner takes 90% of the prize pot as their reward.</p>
+                        </div>
+                        <div style={{ color: "white", display:'flex', gap:'5px' }}>
+                            <Image src={rect} /> <p>The remaining 10% is distributed as cashback for wallet holders</p>
+                        </div>
+                        <div style={{ color: "white", display:'flex', gap:'5px' }}>
+                           <p>Get Gaming, Get Gaining!</p> 
+                        </div>
 
                     </Col>
                     <Col xs={24} sm={24} md={12} className="pad-mob" style={{ display: "flex", justifyContent: "flex-end" }}>
