@@ -1,8 +1,6 @@
 import React from 'react';
 import { Header } from 'antd/lib/layout/layout';
-
 import Footer from '../components/AppFooter';
-
 import BreadCrumb from '../components/BuyCrumb';
 import Wallet from '../components/wallet/Wallet';
 import Step from '../components/step/Step';
