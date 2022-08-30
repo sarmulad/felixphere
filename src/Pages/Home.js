@@ -1,7 +1,7 @@
 import React from 'react';
 import { Header } from 'antd/lib/layout/layout';
 // import MainScreen from '../components/MainScreen';
-import MainBody from '../components/MainBody';
+// import MainBody from '../components/MainBody';
 
 
 const Home = () => {
@@ -9,7 +9,7 @@ const Home = () => {
     <div>
       <Header />
       {/* <MainScreen /> */}
-      <MainBody />
+      {/* <MainBody /> */}
     </div>
   )
 }
