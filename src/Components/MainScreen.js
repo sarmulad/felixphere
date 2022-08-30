@@ -48,9 +48,7 @@ function MainScreen() {
                     </Row>
 
                     <Row className="paa" style={{ padding: "50px 50px 0px 100px" }}>
-                   
-                    <Col xs={24} sm={24} md={11} style={{ display: 'flex', justifyContent: "center" }}>
-                    </Col>
+                    <Col xs={24} sm={24} md={11} style={{ display: 'flex', justifyContent: "center" }}></Col>
                 </Row>
 
                 </div>

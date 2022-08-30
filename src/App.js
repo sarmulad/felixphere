@@ -1,17 +1,15 @@
 import React from 'react';
 import {  Layout } from 'antd';
 import './App.css';
-import Home from './Pages/Home';
 
 import {
   BrowserRouter,
   Routes,
   Route,
-
 } from "react-router-dom";
 
 import "./assets/fonts/Poppins-Regular.ttf";
-
+import Home from './Pages/Home';
 import About from './Pages/About';
 import More from './Pages/More';
 import { StageContextWrapper } from './context/StageContext';
