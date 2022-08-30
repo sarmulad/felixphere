@@ -5,7 +5,7 @@ import sed from '../assets/logo.png';
 import { Link } from 'react-router-dom';
 import Lock from "../assets/lock.png"
 
-function AppHeader() {
+function Header() {
   const [visible, setVisible] = useState(false);
 
   const showDrawer = () => {
@@ -60,4 +60,4 @@ function AppHeader() {
   );
 }
 
-export default AppHeader;
+export default Header;
