@@ -19,7 +19,6 @@ import AppFooter from './AppFooter';
 
 function MainBody() {
     return (
-
         <div className="mainScreen">
             <div style={{ width: "90%", marginLeft: "auto", marginRight: "auto" }}>
 
