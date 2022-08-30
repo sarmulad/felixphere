@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 import EthModal from '../Modal/EthModal/Modal'
-import UsdtModal from '../Modal/UsdtModal/Modal'
-import CardModal from '../Modal/CardModal/Modal'
+// import UsdtModal from '../Modal/UsdtModal/Modal'
+// import CardModal from '../Modal/CardModal/Modal'
 
 
 import Progress from '../Progress/Progress'

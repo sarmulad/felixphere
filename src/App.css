@@ -119,16 +119,7 @@ a:hover{
   padding: 0px 50px 50px;
   
 }
-.br-right{
-  /* border-right: 2px solid #FFCC00; */
 
-    /* margin-bottom: 0px;
-    text-align: center; */
-}
-
-.not_mob2{
-  /* display: none; */
-}
 
 
 .for_timer1{
@@ -580,7 +571,7 @@ body {
 }
 
 p {
-  font-size: 20px;
+  /* font-size: 20px; */
   line-height: 1.6;
 }
 @media screen and (max-width:450px){
@@ -830,10 +821,6 @@ line-height: 27px;
   overflow-x: hidden;
 }
 
-.map{
-  /* background: url("./assets/map.png") no-repeat; */
-
-}
 
 .spon_mob{
   width: 100%;
@@ -908,9 +895,7 @@ text-align: center;
 color: #FFFFFF;
 }
 
-.heroBlock p {
-  /* margin: 0 0 30px; */
-}
+
 
 .heroBlock .btnHolder {
   height: auto !important;
@@ -1111,9 +1096,7 @@ footer
   color: #fff;
 }
 
-.cnter{
-  /* padding-left: 50px; */
-}
+
 
 .footer .socials a:hover {
   color: #1890ff;
@@ -1260,9 +1243,7 @@ responsive
     padding-left: 10px !important;
     padding-right: 10px !important;
   }
-  .not_mob{
-    /* display: none; */
-  }
+
   .rider{
     line-height: 40px !important;
   }
@@ -1386,9 +1367,7 @@ width: 100% !important;
     display: block;
   }
 
-  div#hero{
-    /* height: 100vh !important; */
-  }
+
 
 
   .heroBlock p{
@@ -1401,10 +1380,6 @@ width: 100% !important;
     margin-left: auto;
     margin-right: auto;
     justify-content: center !important;
-  }
-
-  .homeSlide.before{
-
   }
 
   .not_mob{
@@ -1458,15 +1433,10 @@ width: 100% !important;
   }
 
   .h-mob{
-text-align: center;
+   text-align: center;
   }
 
  
-
-  .myfoot{
-    /* display: grid !important; */
-  }
-
   .tkon p{
     text-align: left;
   }
