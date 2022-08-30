@@ -1,6 +1,6 @@
 import React,{useState} from 'react';
 import { Col, Row, Image, Button} from 'antd';
-import AppHeader from './Header';
+import AppHeader from './header';
 import illus from '../assets/illus.png';
 import { saveAs } from "file-saver";
 import WalletModal from './Modal/WalletModal/Modal'
@@ -17,6 +17,7 @@ function MainScreen() {
       };
     return (
         <div id="hero" className="heroBlock">
+
             <div className="container-fluid">
                 <AppHeader />
                 <div className="content homeSlide" >
@@ -45,11 +46,20 @@ function MainScreen() {
                             <Image className="no--mob" src={illus} preview={false} />
                         </Col>
 
+                        {/* <Col xs={24} sm={24}>
+                            <a href="/buy"><Button className="not_mob2" style={{ display: "none", borderRadius: "5px", background: "transparent", border: "1px solid #FFCC00", color: "#FFCC00", margin: "0px 20px 0px 0px" }} size="large">Buy Presale</Button></a>
+                        </Col> */}
+
                     </Row>
 
                     <Row className="paa" style={{ padding: "50px 50px 0px 100px" }}>
-                    <Col xs={24} sm={24} md={11} style={{ display: 'flex', justifyContent: "center" }}></Col>
+                   
+                    <Col xs={24} sm={24} md={11} style={{ display: 'flex', justifyContent: "center" }}>
+                    </Col>
                 </Row>
+
+
+                {/* <Bonus /> */}
 
                 </div>
             </div>

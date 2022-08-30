@@ -822,6 +822,7 @@ line-height: 27px;
 }
 
 
+
 .spon_mob{
   width: 100%;
 }
@@ -1226,16 +1227,6 @@ responsive
 }
 
 
-
-
-
-
-
-
-
-
-
-
   .paa{
     padding: 30px !important;
   }
@@ -1243,7 +1234,7 @@ responsive
     padding-left: 10px !important;
     padding-right: 10px !important;
   }
-
+  
   .rider{
     line-height: 40px !important;
   }
@@ -1369,7 +1360,6 @@ width: 100% !important;
 
 
 
-
   .heroBlock p{
     width: 100% !important;
     font-size: 15px !important;
@@ -1381,6 +1371,7 @@ width: 100% !important;
     margin-right: auto;
     justify-content: center !important;
   }
+
 
   .not_mob{
     display: none;
@@ -1433,10 +1424,11 @@ width: 100% !important;
   }
 
   .h-mob{
-   text-align: center;
+  text-align: center;
   }
 
  
+
   .tkon p{
     text-align: left;
   }

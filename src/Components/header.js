@@ -1,11 +1,12 @@
-import React, { useState, } from 'react'
-import { Drawer, Button,  } from 'antd';
+import React, { useState } from 'react'
+import {  Drawer, Button, } from 'antd';
 import { MenuOutlined } from '@ant-design/icons';
 import sed from '../assets/logo.png';
 import { Link } from 'react-router-dom';
 import Lock from "../assets/lock.png"
+// const { Option } = Select;
 
-function Header() {
+function AppHeader() {
   const [visible, setVisible] = useState(false);
 
   const showDrawer = () => {
@@ -60,4 +61,4 @@ function Header() {
   );
 }
 
-export default Header;
+export default AppHeader;

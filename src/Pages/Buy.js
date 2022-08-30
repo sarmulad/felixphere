@@ -1,11 +1,13 @@
 import React from 'react';
 import { Header } from 'antd/lib/layout/layout';
-import Footer from '../components/AppFooter';
-import BreadCrumb from '../components/BuyCrumb';
-import Wallet from '../components/wallet/Wallet';
-import Step from '../components/step/Step';
-import StepTwo from '../components/stepTwo/StepTwo';
-import StepThree from '../components/stepThree/Step';
+
+import Footer from '../Components/AppFooter';
+
+import BreadCrumb from '../Components/BuyCrumb';
+import Wallet from '../Components/wallet/Wallet';
+import Step from '../Components/step/Step';
+import StepTwo from '../Components/stepTwo/StepTwo';
+import StepThree from '../Components/stepThree/Step';
 
 
 const Buy = () => {

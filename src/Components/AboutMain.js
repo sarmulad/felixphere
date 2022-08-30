@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Col, Row, Image, Collapse } from 'antd';
+import { Col, Row, Collapse } from 'antd';
 
 const { Panel } = Collapse;
 

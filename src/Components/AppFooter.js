@@ -1,7 +1,7 @@
 import React, { useContext } from "react"
 import telegram from '../assets/soc7.svg';
 import twitter from '../assets/soc3.svg';
-import { Col, Row, Image, Layout } from 'antd';
+import { Col, Row,  Layout } from 'antd';
 import { StageContext } from '../context/StageContext';
 import log from '../assets/FELIXTEXT.svg';
 

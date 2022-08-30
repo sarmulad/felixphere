@@ -1,13 +1,13 @@
 import React from 'react';
 import { Header } from 'antd/lib/layout/layout';
 
-import Footer from '../components/AppFooter';
+import Footer from '../Components/AppFooter';
 
-import BreadCrumb from '../components/BuyCrumb';
-import Connect from "../components/Connect/Connect";
-import Step from '../components/step/Step';
-import StepTwo from '../components/stepTwo/StepTwo';
-import StepThree from '../components/stepThree/Step';
+import BreadCrumb from '../Components/BuyCrumb';
+import Connect from "../Components/Connect/Connect";
+import Step from '../Components/step/Step';
+import StepTwo from '../Components/stepTwo/StepTwo';
+import StepThree from '../Components/stepThree/Step';
 
 
 const Buy = () => {
